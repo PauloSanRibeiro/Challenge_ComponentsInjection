@@ -29,6 +29,8 @@ public class OrdersApplication implements CommandLineRunner {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("[Input]");
+
 		int code = sc.nextInt();
 		double basic = sc.nextDouble();
 		double discount = sc.nextDouble();
